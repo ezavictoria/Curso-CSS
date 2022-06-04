@@ -1,0 +1,214 @@
+body {
+    padding: 20px;
+    padding-bottom: 500px;
+}
+
+p{
+    color:green;
+    font-size: 30px;
+}
+
+/* Classes e Ids */
+
+.meu-paragrafo {
+    background-color: aquamarine;
+    color: blue
+}
+
+#titulo-principal {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-family: Georgia;
+}
+
+/* Elementos da página e listas */
+
+*{
+    font-family: Arial;
+}
+
+p, 
+h1{
+    border-bottom: 1px solid blue;
+}
+
+/* Cores */
+
+.nome-da-cor {
+    color: pink;
+}
+
+.hexa {
+    color: #a8b1e4;
+    background-color: #333;
+}
+
+.rgb {
+    color: rgb(100, 25, 34);
+}
+
+/* Fontes */
+
+.serifada {
+    font-family: Georgia;
+}
+
+.sem-serifa {
+    font-family: Helvetica;
+}
+
+.monoespacadas {
+    font-family: "Courier New";
+}
+
+/* Tamanho e peso */
+
+.tamanho-fonte-grande {
+    font-size: 64px;
+}
+
+.tamanho-fonte-pequena {
+    font-size: 12px;
+}
+
+.peso-fonte {
+    font-weight: 700;
+}
+
+.fonte-italico {
+    font-style: italic;
+}
+
+/* Box Model */
+
+.box-model{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Prop. Texto */
+
+.alinhamento {
+    text-align: center;
+}
+
+.transform-maiuscula {
+    text-transform: uppercase;
+}
+
+.transform-minuscula {
+    text-transform: lowercase;
+}
+
+/* Espaçamento de Linhas e letras */
+
+.espacamento-texto {
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+/* Links */
+
+.decoration {
+    text-decoration: none;
+}
+
+.visitado:visited{
+    color:orange;
+}
+
+.estilo-hover:hover{
+    color: white;
+    background-color: #363e70;
+}
+
+/* Link em Button */
+
+.btn{
+    background-color: #34ae34;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px;
+    text-align: center;
+    margin: 20px;
+    transition: 0,5s;
+}
+
+.btn:hover{
+    background-color: #363e70;
+}
+
+/* Lista */
+
+.sem-estilo{
+    list-style: none;
+}
+
+/* Display */
+
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco {
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Posição Fixa */
+
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292AE;
+    border-bottom: 3PX SOLID #363e70;
+    color: white;
+}
+
+/* Pseudoseletor */
+
+.primeiro-elemento p:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+/* Pseudoelemento */
+
+.primeira-letra::first-letter{
+    font-size: 40px;
+    color:#363e70;
+    background-color: aqua;
+    padding: 4px;
+}
+
+h2{
+    color: red;
+}
+
+.titulo{
+    color:green;
+}
+
+#meu-titulo-preferido{
+    color:blue;
+}
